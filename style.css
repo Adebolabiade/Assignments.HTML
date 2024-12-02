@@ -36,6 +36,9 @@ nav ul li a:hover {
 #about{
     font-size:30px
 }
+
+
+
 /* style price link*/
 #prices a{
     float: left;
@@ -83,9 +86,8 @@ footer {
 }
 
 /* Company Profile Section */
-#company-profile {
-    
-}
+#company-profile 
+
 
 #aboutpage {
     text-align:center;
@@ -133,6 +135,22 @@ footer {
     color: #555;
 }
 
+#price-list .price-grid{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.price-tags{
+    width: 380px;
+    padding: 15px;
+    text-align:center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 /* Job Specifications Section */
 #job-specs ul {
     list-style: disc;
@@ -174,6 +192,18 @@ footer {
 
 #application-form form button:hover {
     background-color: #0056b3;
+}
+
+#price-list button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
 }
 
 /* Courses Section */
