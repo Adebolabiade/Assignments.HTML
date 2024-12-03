@@ -7,7 +7,7 @@ background-color:white  ; color: #333;
 }
 
 header {
-    background-color: #007bff;
+    background-color: orangered;
     color: white;
     padding: 10px ;
     text-align: center;
@@ -27,14 +27,18 @@ nav ul li {
     margin: 0 15px;
 }
 
+/*style the nav links*/
 nav ul li a:hover {
     color: white;
-    text-decoration: none;
     font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: darkblue;
 }
 
 #about{
-    font-size:30px
+    font-size:25px
 }
 
 
@@ -53,9 +57,10 @@ nav ul li a:hover {
 section {
     padding: 50px;
     margin: 50px;
-    background-color:lightblue;
+    background-color:rgb(128, 128, 128);
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 9px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
 }
 
 .pricesbody {
@@ -75,11 +80,11 @@ section {
   }
 
 h2 {
-    color: #007bff;
+    color: green;
 }
 
 footer {
-    background-color: #333;
+    background-color: grey;
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -96,33 +101,26 @@ footer {
 #peterimage{
     background-size: cover;
 }
-
+/*Font size for company profile*/
 #company-profile p {
-    font-size: 35px;
+    font-size: 25px;
 }
 
 /* Trainee Profiles Section */
 #trainee-profiles .trainee-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }
 
 .trainee-card {
-    width: 280px;
+    width: 400px;
     padding: 15px;
     text-align: center;
     background-color: #f8f9fa;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.trainee-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
 }
 
 .trainee-card h3 {
@@ -133,6 +131,16 @@ footer {
 .trainee-card p {
     font-size: 1em;
     color: #555;
+}
+
+.trainee-card button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
 }
 
 #price-list .price-grid{
@@ -201,10 +209,8 @@ footer {
     border: none;
     border-radius: 5px;
     font-size: 1em;
-    cursor: pointer;
-    
-}
-}
+    cursor: pointer;} 
+
 
 /* Courses Section */
 #courses ul {
@@ -223,7 +229,7 @@ footer {
 }
 
 #courses ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Responsive Styles */
