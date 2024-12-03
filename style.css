@@ -27,10 +27,13 @@ nav ul li {
     margin: 0 15px;
 }
 
+/*style the nav links*/
 nav ul li a:hover {
     color: white;
-    text-decoration: none;
     font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
 }
 
 #about{
@@ -79,7 +82,7 @@ h2 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bff;
     color: white;
     text-align: center;
     padding: 15px 0;
@@ -202,9 +205,8 @@ footer {
     border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
-    
-}
-}
+} 
+
 
 /* Courses Section */
 #courses ul {
@@ -223,7 +225,7 @@ footer {
 }
 
 #courses ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 /* Responsive Styles */
